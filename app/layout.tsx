@@ -14,9 +14,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Study-In-Yemen",
+  title: "Studying-In-Yemen",
   description:
     "A platform to facilitate studying in Yemen, providing resources, guidance, and support for students seeking educational opportunities.",
+  icons: {
+    icon: "/Studying-In-Yemen-Logo.png",
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
