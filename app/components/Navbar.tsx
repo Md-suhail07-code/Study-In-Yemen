@@ -17,14 +17,14 @@ const Navbar = () => {
         <header className="flex items-center h-full">
           <Show when="signed-out">
             <div className="flex items-center gap-x-4">
-              <SignInButton>
+              <SignInButton mode="redirect">
                 <button className="font-sans text-xs font-semibold text-gray-700 hover:text-black cursor-pointer px-3 py-2 transition-colors">
                   Sign In
                 </button>
               </SignInButton>
-              <SignUpButton>
+              <SignUpButton mode="redirect">
                 <button className="bg-[#0c1d33] text-white font-sans text-xs uppercase font-medium tracking-widest h-10 px-6 hover:bg-[#152e52] transition-all cursor-pointer">
-                  Contact
+                  Sign Up
                 </button>
               </SignUpButton>
             </div>
